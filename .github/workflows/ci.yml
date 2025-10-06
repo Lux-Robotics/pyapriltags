@@ -25,7 +25,6 @@ jobs:
 
       - name: Clone your pyapriltags fork
         run: |
-          git clone https://github.com/Lux-Robotics/pyapriltags.git pyapriltags
           cd pyapriltags
           git submodule update --init --recursive
 
